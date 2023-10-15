@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run .\Portofolio\TilloTenney_AE_Portofolio.py
