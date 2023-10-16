@@ -28,7 +28,7 @@ with st.container():
     st.subheader("Hi, I'm Tillo Tenney A E :cyclone:")
     st.title("Skyrocketing 🚀 Data Sorcerer")
     st.write("Experienced Data Scientist with expertise in SQL Server admin, query optimization, data replication, SSIS, Python, ETL automation, and ML models, driving performance improvements and database efficiency.")
-    st.write("[ 👉 Learn more](https://www.linkedin.com/in/tillo-tenney-a-e-aspiring-datascientist/)")
+    st.markdown("[👉 :orange[Learn more]](https://www.linkedin.com/in/tillo-tenney-a-e-aspiring-datascientist/)")
 
 with st.container():
     st.write("-----")
@@ -58,7 +58,7 @@ with st.container():
             """
         )
 
-        st.write("[ 👉 Git](https://github.com/TilloTenney/Projects_TilloTenney)")
+        st.write("[ 👉 :orange[Git]](https://github.com/TilloTenney/Projects_TilloTenney)")
 
     with right_col:
         st_lottie(lottie_anim,height=400,key="Data Scientist")
