@@ -81,7 +81,7 @@ with st.container():
             - We wanted to simplify this process by creating a user-friendly solution.
             """
         )
-        st.markdown("[ 👉 :orange[Watch video]](https://www.linkedin.com/posts/tillo-tenney-a-e-aspiring-datascientist_youtubedata-datasimplified-streamlineddata-activity-7118104908607750144-MEkq?utm_source=share&utm_medium=member_desktop)")
+        st.markdown("[ 👉 :orange[Watch video]](https://youtu.be/w5qb9C7tfHA)")
 
 with st.container():
     st.write("----")
