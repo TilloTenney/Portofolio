@@ -18,11 +18,11 @@ def local_css(file):
     with open(file) as f:
         st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
 
-local_css("Portofolio/style.css")
+local_css("style.css")
 
 lottie_anim = load_anim("https://lottie.host/51451734-dac8-4475-ad2f-5261c798bc50/5WKsGu6sR6.json") #Animation
 lottie_anim_mail = load_mail("https://lottie.host/53c7b66a-6187-4ece-a8d9-d3a5737bb037/tMg9d4uwc2.json")
-image_proj1 = Image.open("Portofolio/proj1.png")
+image_proj1 = Image.open("proj1.png")
 
 with st.container():
     st.subheader("Hi, I'm Tillo Tenney A E :cyclone:")
